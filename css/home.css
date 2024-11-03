@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "MainFont"; 
+  src: url("../fonts/MainFont.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+.rectangle-1{
+  background: linear-gradient(#00ff44 , green);
+  height: calc(3rem + 5vw);
+  width: auto;
+  display: flex;
+  gap: 3%;
+  h1 {
+    font-family: "MainFont";
+    font-size: calc(1rem + 2vw);
+  }
+  img {
+    border-radius: 25px;
+    width: calc(2rem + 5vw);
+    padding: 10px;
+  }
+}
+
+.sidebar1 {
+  width: 20%;
+  background-color: rgb(0, 97, 0);
+  height: calc(50rem + 5vw);
+  float: right;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: rgb(0, 92, 5);
+  height: calc(50rem + 5vw);
+  float: left;
+}
+
+.main {
+  background-color: #000000;
+  width: 60%;
+  display: flex;
+  margin: auto;
+  height: calc(50rem + 5vw);
+}
+
+.post {
+  display: flex;
+  background: #fff;
+  margin: 5px;
+  padding: 10px;
+  p {
+    padding: 10px;
+  }
+  h2 {
+    padding: 10px;
+  }
+}
+
+.posts {
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+a {
+  color: #000000;
+  font-size: calc(1rem + 1vw);
+}
+
+li {
+  list-style: none;
+}
